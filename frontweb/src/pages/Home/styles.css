@@ -1,105 +1,133 @@
 .home-container-desafio {
-    padding: 10px;
-    font-size: 20px;
-    border: 1px solid red;
-    text-align: center;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px 10px 120px 10px;
+  font-size: 20px;
+  border: 2px solid red;
+  text-align: center;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.home-card-desafio {
+  padding: 20px 10px 0px 10px;
+  align-self: left;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 20px;
+  background-color: #00285f;
+  border: 2px solid orange;
+  margin-bottom: 20px;
+}
+
+.home-content-container-desafio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 25px 10px;
+  border: 2px solid purple;
+}
+
+.home-content-container-desafio h1 {
+  width: 260px;
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.home-content-container-desafio p {
+  width: 260px;
+  font-size: 0.7em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.home-image-container-desafio {
+  border: 2px solid gold;
+  padding: 50px 10px;
+}
+
+.home-image-container-desafio svg {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  .home-container-desafio {
+    padding: 30px 10px 120px 10px;
+    font-size: 40px;
   }
-  
+
   .home-card-desafio {
-    padding: 20px 10px 0px 20px;
-    align-self: left;
-    display: flex;
-    flex-direction: column-reverse;
-    border-radius: 20px;
-    background-color: #00285F;
-    border: 2px solid orange;
-  }
-  
-  .home-content-container-desafio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 10px 60px 10px;
-    border: 2px solid purple;
-  }
-  
-  .home-content-container-desafio h1 {
-    width: 260px;
-    font-size: 1em;
-    margin-bottom: 15px;
-    color: #FFFFFF;
-  }
-  
-  .home-content-container-desafio p {
-    width: 260px;
-    font-size: 0.7em;
-    color: #FFFFFF;
     margin-bottom: 30px;
   }
 
-  .home-image-container-desafio {
-    border: 2px solid gold;
-    padding: 50px 15px;
-  }
-  
-  .home-image-container-desafio svg {
-    width: 100%;
-    height: auto;
+  .home-content-container-desafio h1 {
+    width: 506px;
+    margin-bottom: 20px;
   }
 
-  @media (min-width: 576px) {
-    .home-container-desafio {
-      padding: 20px;
-      font-size: 40px;
-    }
-  
-    .home-content-container-desafio h1 {
-      width: 506px;
-      margin-bottom: 20px;
-    }
-  
-    .home-content-container-desafio p {
-      width: 506px;
-      margin-bottom: 20px;
-    }
-  
-    .home-image-container-desafio svg {
-      width: 506px;
-    }
+  .home-content-container-desafio p {
+    width: 506px;
+    margin-bottom: 20px;
   }
-  
-  @media (min-width: 768px) {
-    .home-image-container-desafio {
-      padding: 100px 20px;
-    }
-  
-    .home-content-container-desafio {
-      padding: 20px, 20px, 100px, 20px;
-    }
+
+  .home-image-container-desafio svg {
+    width: 480px;
   }
-  
-  @media (min-width: 992px) {
-    .home-container-desafio {
-      padding: 40px;
-      font-size: 55px;
-    }
-  
-    .home-image-container-desafio {
-      padding: 125px 20px;
-    }
-  
-    .home-content-container-desafio {
-      padding: 20px, 20px, 150px, 20px;
-    }
-  
-    .home-content-container-desafio h1 {
-      width: 700px;
-      margin-bottom: 26px;
-    }
-  
-    .home-content-container-desafio p {
-      width: 700px;
-      margin-bottom: 47px;
-    }
+
+  .btn-container-desafio {
+    padding: 60px 20px 60px 55px;
+    flex-direction: row;
   }
+
+  .btn-icon-desafio {
+    width: 200px;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .btn h6 {
+    font-size: 16px;
+  }
+
+  .btn-description-text p {
+    width: 250px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-image-container-desafio {
+    padding: 100px 20px;
+  }
+
+  .home-content-container-desafio {
+    padding: 20px, 20px, 100px, 20px;
+  }
+
+  .home-image-container-desafio svg {
+    width: 650px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container-desafio {
+    padding: 40px;
+    font-size: 55px;
+  }
+
+  .home-image-container-desafio {
+    padding: 125px 20px;
+  }
+
+  .home-content-container-desafio {
+    padding: 20px, 20px, 150px, 20px;
+  }
+
+  .home-content-container-desafio h1 {
+    width: 700px;
+    margin-bottom: 26px;
+  }
+
+  .home-content-container-desafio p {
+    width: 700px;
+    margin-bottom: 47px;
+  }
+}
