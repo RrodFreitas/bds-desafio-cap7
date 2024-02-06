@@ -1,0 +1,15 @@
+.product-info-container-desafio {
+    display: flex;
+}
+
+.product-info-container-desafio span {
+    font-size: 18px;
+    color: black;
+    margin-top: 4px;
+}
+
+.product-info-container-desafio h3 {
+    font-size: 32px;
+    color: #407BFF;
+    margin-left: 10px;
+}
