@@ -1,13 +1,11 @@
-
-
 const Catalog = () => {
-    return (
-      <>
-        <div>
+  return (
+    <>
+      <div>
         <h1>Hello Catalog Page</h1>
-        </div>
-      </>
-    );
-  };
-  
-  export default Catalog;
+      </div>
+    </>
+  );
+};
+
+export default Catalog;

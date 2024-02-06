@@ -40,3 +40,9 @@
   font-size: 1em;
   margin-bottom: 30px;
 }
+
+@media (min-width: 992px) {
+  .btn-container-desafio {
+    justify-content: left;
+  }
+}

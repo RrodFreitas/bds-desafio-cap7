@@ -45,7 +45,7 @@
 }
 
 .home-image-container-desafio svg {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -70,7 +70,7 @@
   }
 
   .home-image-container-desafio svg {
-    width: 480px;
+    width: 420px;
   }
 
   .btn-container-desafio {
@@ -94,6 +94,11 @@
 }
 
 @media (min-width: 768px) {
+  .home-container-desafio {
+    padding: 40px;
+    font-size: 30px;
+  }
+
   .home-image-container-desafio {
     padding: 100px 20px;
   }
@@ -103,14 +108,14 @@
   }
 
   .home-image-container-desafio svg {
-    width: 650px;
+    width: 520px;
   }
 }
 
 @media (min-width: 992px) {
   .home-container-desafio {
     padding: 40px;
-    font-size: 55px;
+    font-size: 44px;
   }
 
   .home-image-container-desafio {
@@ -130,4 +135,29 @@
     width: 700px;
     margin-bottom: 47px;
   }
+}
+
+  @media (min-width: 1440px) {
+    .home-content-container-desafio {
+      font-size: 40px;
+      height: 480px;
+      width: 700px;
+      padding: 150px 20px;
+      text-align: left;
+    }
+
+    .home-content-container-desafio h1 {
+      width: 700px;
+      margin-bottom: 2px
+      ;
+    }
+
+    .home-image-container-desafio svg {
+      width: 320px;
+    }
+
+    .home-card-desafio {
+      flex-direction: row;
+      justify-content: space-around;
+    }
 }
