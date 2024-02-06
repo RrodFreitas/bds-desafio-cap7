@@ -2,12 +2,10 @@ import { ReactComponent as MainImage } from 'assets/images/car-header.svg';
 import 'assets/styles/custom.scss';
 import ButtonIcon from 'components/ButtonIcon';
 import './styles.css';
-import Navbar from 'components/Navbar';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container-desafio">
         <div className="home-card-desafio">
           <div className="home-content-container-desafio">

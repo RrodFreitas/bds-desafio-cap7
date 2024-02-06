@@ -10,7 +10,6 @@ const ProductCard = () => {
             <img src={ProductImg} alt="Nome do Produto"/>
         </div>
         <div className="card-bottom-container-desafio">
-            <h6>Nome do Produto</h6>
             <ProductInfo/>
         </div>
     </div>
