@@ -5,7 +5,7 @@ import 'bootstrap/js/dist/collapse';
 const ButtonSearch = () => {
   return (
     <div className="btn-search-container">
-      <textarea className="input-icon"></textarea>
+      <input type="text" defaultValue="Digite sua busca" className="input-icon"></input>
       <div className="btn-search-icon-container">BUSCAR</div>
     </div>
   );
