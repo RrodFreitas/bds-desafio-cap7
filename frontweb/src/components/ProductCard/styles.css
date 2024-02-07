@@ -1,25 +1,21 @@
 .product-card-desafio {
     margin-bottom: 30px;
+    background: rgba(180, 170, 170, 0.336)
   }
   
   .card-top-container-desafio {
     text-align: center;
-    padding: 16px 0;
+    padding: 0px;
     border-bottom: 1px solid #e1e1e1;
   }
-  
-  .card-top-container img {
-      width: 158px;
-      height: 158px;
-  }
+
+  .card-top-container-desafio img {
+    width: 100%;
+    height: auto;
+}
   
   .card-bottom-container-desafio {
     text-align: left;
-    padding: 15px 20px 30px 20px;
-  }
-  
-  .card-bottom-container-desafio h6 {
-    font-size: 18px;
-    color: #263238;
+    padding: 0px 10px 30px 10px;
   }
   

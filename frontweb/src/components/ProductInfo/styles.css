@@ -4,15 +4,51 @@
     text-align: center;
 }
 
+.product-info-container-content-desafio {
+    height: 100px;
+}
+
 .product-info-container-desafio span {
     font-size: 16px;
+    font-weight: bold;
     color: #000000;
     margin-top: 4px;
 }
 
 .product-info-container-desafio h6 {
     text-align: left;
+    font-style: italic;
     font-size: 12px;
-    color: #2b2d2e;
+    color: #5a6368;
     margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-container-info-desafio button {
+    align-items: center;
+    width: 225px;
+    height: 40px;
+    background-color: #00285f;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .product-info-container-desafio h6 {
+        font-size: 15px;
+    }
+    
+    .btn-container-info-desafio button {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .product-info-container-desafio h6 {
+        font-size: 15px;
+    }
+    
+    .btn-container-info-desafio button {
+        width: 280px;
+    }
 }

@@ -72,25 +72,6 @@
   .home-image-container-desafio svg {
     width: 420px;
   }
-
-  .btn-container-desafio {
-    padding: 60px 20px 60px 55px;
-    flex-direction: row;
-  }
-
-  .btn-icon-desafio {
-    width: 200px;
-    padding: 10px 0px 20px 0px;
-  }
-
-  .btn h6 {
-    font-size: 16px;
-  }
-
-  .btn-description-text p {
-    width: 250px;
-    font-size: 16px;
-  }
 }
 
 @media (min-width: 768px) {
